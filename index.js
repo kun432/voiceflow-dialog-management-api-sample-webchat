@@ -3,8 +3,10 @@ const asyncHandler = require('express-async-handler')
 const morganBody = require('morgan-body')
 
 const session = require('express-session')
-const redis = require("redis");
+const redis = require("ioredis");
+
 const RedisStore = require("connect-redis")(session);
+const redisClient = new redis(process.env.REDIS_URL);
 
 const Axios = require('axios')
 
@@ -29,16 +31,7 @@ const sess = {
   secret: 'secret_key',
   resave: false,
   saveUninitialized: false,
-  store: new RedisStore({
-    url: process.env.REDIS_URL,
-    client: redis.createClient({
-        url: process.env.REDIS_URL,
-        socket: {
-          tls: true,
-          rejectUnauthorized: false
-        }
-    })
-  }),
+  store: new RedisStore({client: redisClient}),
   cookie: {
     maxAge: MAX_AGE * 1000, // sec
     sameSite: 'none',
