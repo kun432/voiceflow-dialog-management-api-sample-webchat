@@ -3,7 +3,7 @@ const asyncHandler = require('express-async-handler')
 const morganBody = require('morgan-body')
 
 const session = require('express-session')
-const redis = require("ioredis");
+const redis = require("redis");
 const RedisStore = require("connect-redis")(session);
 
 const Axios = require('axios')

@@ -33,6 +33,7 @@
     "express-async-handler": "^1.2.0",
     "express-session": "^1.17.2",
     "ioredis": "^4.28.5",
-    "morgan-body": "^2.6.6"
+    "morgan-body": "^2.6.6",
+    "redis": "^4.0.4"
   }
 }
