@@ -29,17 +29,17 @@ const sess = {
   secret: 'secret_key',
   resave: false,
   saveUninitialized: false,
+  store: new RedisStore({
+    url: process.env.REDIS_URL,
+    client: redis.createClient({
+        url: process.env.REDIS_URL
+    })
+  }),
   cookie: {
     maxAge: MAX_AGE * 1000, // sec
     sameSite: 'none',
     secure: true,
     httpOnly: true,
-    store: new RedisStore({
-      url: process.env.REDIS_URL,
-      client: redis.createClient({
-          url: process.env.REDIS_URL
-      })
-  })
   }
 }
 
