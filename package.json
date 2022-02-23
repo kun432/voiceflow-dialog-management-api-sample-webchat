@@ -1,0 +1,38 @@
+{
+  "name": "voiceflow-dialog-management-api-sample-webchat",
+  "version": "0.1.0",
+  "description": "website embedded chatbot sample using Voiceflow Dialog Management API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "npx eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kun432/voiceflow-dialog-management-api-sample-webchat.git"
+  },
+  "keywords": [
+    "voiceflow",
+    "chatbot",
+    "chat",
+    "bot"
+  ],
+  "author": "kun432 <kun432.8d1w@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kun432/voiceflow-dialog-management-api-sample-webchat/issues"
+  },
+  "homepage": "https://github.com/kun432/voiceflow-dialog-management-api-sample-webchat#readme",
+  "devDependencies": {
+    "eslint": "^8.9.0"
+  },
+  "dependencies": {
+    "axios": "^0.26.0",
+    "connect-redis": "^6.1.1",
+    "express": "^4.17.3",
+    "express-async-handler": "^1.2.0",
+    "express-session": "^1.17.2",
+    "ioredis": "^4.28.5",
+    "morgan-body": "^2.6.6"
+  }
+}

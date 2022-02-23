@@ -1,0 +1,33 @@
+{
+  "name": "voiceflow-dialog-management-api-sample-webchat",
+  "description": "website embedded chatbot sample using Voiceflow Dialog Management API",
+  "keywords": [
+    "voiceflow",
+    "chatbot",
+    "chat",
+    "bot"
+  ],
+  "repository": "https://github.com/kun432/voiceflow-dialog-management-api-sample-webchat",
+  "env": {
+    "VF_API_KEY": {
+      "description": "set Voiceflow API Key for your project.",
+      "required": true,
+      "value": ""
+    },
+    "FRONTEND_URL": {
+      "description": "set HTTPS-enabled frontend URL which hosts chat clients.",
+      "required": true,
+      "value": ""
+    },
+    "MAX_AGE": {
+      "description": "set seconds to keep session. (default: 3600 secs = 1hour)",
+      "value": "3600"
+    }
+  },
+  "addons": [
+    {
+      "plan": "heroku-redis:hobby-dev"
+    }
+  ]
+}
+
