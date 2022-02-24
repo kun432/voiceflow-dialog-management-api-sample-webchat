@@ -27,7 +27,7 @@ sample demo for website embedded chatbot using Voiceflow Dialog Management API
   - *MAX_AGE*
     - set seconds until each chat session is expired
     - default: 3600 seconds -> 1 hour
-4. In your website, insert the following codes.
+4. In your website, insert the following codes and edit endpoint URL for Heroku app.
 
 ```
 <script src="https://chatux-kun432.netlify.app/chatux.min.js"></script>
@@ -37,7 +37,7 @@ sample demo for website embedded chatbot using Voiceflow Dialog Management API
     {
       renderMode: 'auto',
       api: {
-        endpoint: 'https://my-vf-webchat.herokuapp.com/chat', // your heroku app URL + "/chat"
+        endpoint: 'https://my-vf-webchat.herokuapp.com/chat', // change your heroku app URL + "/chat"
         method: 'POST',
         dataType: 'json'
       },
