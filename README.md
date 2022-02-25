@@ -6,7 +6,7 @@ sample demo for website embedded chatbot using Voiceflow Dialog Management API
 - [Heroku](https://www.heroku.com/) account
 - your website for embedding chatbot
 - your "chat assistant" project on Voiceflow
-# Usage
+## Usage
 
 1. create Voiceflow "chat assistant" project and get Dialog API key.
 2. click [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
@@ -63,12 +63,12 @@ sample demo for website embedded chatbot using Voiceflow Dialog Management API
 
 enjoy!
 
-# LICENSE
+## License
 
 Copyright (c) 2022 Kuniaki Shimizu (kun432.8d1w@gmail.com)
 Released under the MIT license
 https://github.com/riversun/chatux/blob/master/LICENSE
-# Thanks
+## Thanks
 
 - https://github.com/riversun/chatux
   - Copyright (c) 2017-2019 Tom Misawa Tom Misawa (riversun.org@gmail.com,https://github.com/riversun)
