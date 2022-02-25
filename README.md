@@ -1,7 +1,6 @@
 # voiceflow-dialog-management-api-sample-webchat
 
 sample demo for website embedded chatbot using Voiceflow Dialog Management API
-
 ## Prerequisite
 
 - [Heroku](https://www.heroku.com/) account
@@ -64,6 +63,11 @@ sample demo for website embedded chatbot using Voiceflow Dialog Management API
 
 enjoy!
 
+# LICENSE
+
+Copyright (c) 2022 Kuniaki Shimizu (kun432.8d1w@gmail.com)
+Released under the MIT license
+https://github.com/riversun/chatux/blob/master/LICENSE
 # Thanks
 
 - https://github.com/riversun/chatux
