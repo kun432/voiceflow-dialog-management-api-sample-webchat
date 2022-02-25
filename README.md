@@ -67,4 +67,9 @@ enjoy!
 # Thanks
 
 - https://github.com/riversun/chatux
+  - Copyright (c) 2017-2019 Tom Misawa Tom Misawa (riversun.org@gmail.com,https://github.com/riversun)
+  - Released under the MIT license
+  - https://github.com/riversun/chatux/blob/master/LICENSE
 - https://www.irasutoya.com/
+  - Copyright © いらすとや. All Rights Reserved.
+  - https://www.irasutoya.com/p/terms.html
