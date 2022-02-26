@@ -67,7 +67,7 @@ enjoy!
 
 Copyright (c) 2022 Kuniaki Shimizu (kun432.8d1w@gmail.com)
 Released under the MIT license
-https://github.com/riversun/chatux/blob/master/LICENSE
+https://github.com/kun432/voiceflow-dialog-management-api-sample-webchat/blob/main/LICENSE
 ## Thanks
 
 - https://github.com/riversun/chatux
