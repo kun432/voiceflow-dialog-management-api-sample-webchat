@@ -36,7 +36,7 @@ sample demo for website embedded chatbot using Voiceflow Dialog Management API
     {
       renderMode: 'auto',
       api: {
-        endpoint: 'https://my-vf-webchat.herokuapp.com/chat', // change your heroku app URL + "/chat"
+        endpoint: 'https://example.herokuapp.com/chat', // change your heroku app URL + "/chat"
         method: 'POST',
         dataType: 'json'
       },
